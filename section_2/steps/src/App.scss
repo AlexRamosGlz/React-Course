@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Rubik:wght@400;500;700&display=swap');
+
+.steps {
+  max-width: 60rem;
+  background-color: #f7f7f7;
+  margin: 100px auto;
+  padding: 2.5rem 10rem;
+  border-radius: 11px;
+  font-family: "Inter", sans-serif;
+
+  .numbers {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+
+    li {
+      min-height: 4rem;
+      aspect-ratio: 1;
+      background-color: #e7e7e7;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.8rem;
+    }
+
+    .active {
+      background-color: #7950f2;
+      color: #fff;
+    }
+  }
+
+  .message {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 4rem 0;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+
+    button {
+      font-family: 'Inter', sans-serif;
+      font-family: 'Rubik', sans-serif;
+      background-color: #e7e7e7;
+      border: none;
+      border-radius: 50px;
+      padding: 1rem 1.5rem;
+      font-weight: 500;
+      background-color: #7950f2;
+      color: white;
+      cursor: pointer;
+    }
+  }
+
+}
+
+
+.close {
+  background-color: transparent;
+  border: none;
+  width: 2.4rem;
+  height: 2.4rem;
+  font-size: 4rem;
+  top: 1.6rem;
+  right: 1.6rem;
+  position: absolute;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #7950f2;
+}

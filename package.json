@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-router-dom": "^6.12.1",
+    "sass": "^1.63.6"
+  },
+  "name": "react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-components": "npm run start --prefix components"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
